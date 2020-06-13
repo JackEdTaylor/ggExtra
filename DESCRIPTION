@@ -24,7 +24,8 @@ Imports:
     shinyjs (>= 0.5.2),
     utils,
     R6,
-    ggdark
+    ggdark,
+    gridExtra
 Suggests:
     knitr (>= 1.7),
     rmarkdown,

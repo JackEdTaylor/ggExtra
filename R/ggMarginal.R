@@ -209,6 +209,6 @@ print.ggExtraPlot <- function(x, newpage = grDevices::dev.interactive(), ...) {
       ggdark::dark_theme_void()
     print(x)
   } else {
-    grid::grid.draw(grid::grobTree(grid::rectGrob(gp=grid::gpar(fill="black", lwd=0)), gridExtra::grid.arrange(x)))
+    gridExtra::grid.arrange(grid::grobTree(grid::rectGrob(gp=grid::gpar(fill="black", lwd=0)), gridExtra::grid.arrange(x)))
   }
 }
