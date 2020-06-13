@@ -206,7 +206,7 @@ print.ggExtraPlot <- function(x, newpage = grDevices::dev.interactive(), ...) {
     x <- ggplot2::ggplot() +
       ggplot2::geom_blank() +
       ggplot2::annotation_custom(x) +
-      ggplot2::theme_void()
+      ggdark::dark_theme_void()
     print(x)
   } else {
     grid::grid.draw(x)

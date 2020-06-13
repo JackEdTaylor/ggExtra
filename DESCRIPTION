@@ -23,7 +23,8 @@ Imports:
     shiny (>= 0.13.0),
     shinyjs (>= 0.5.2),
     utils,
-    R6
+    R6,
+    ggdark
 Suggests:
     knitr (>= 1.7),
     rmarkdown,
@@ -40,4 +41,4 @@ License: MIT + file LICENSE
 SystemRequirements: pandoc with https support
 LazyData: true
 VignetteBuilder: knitr
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0

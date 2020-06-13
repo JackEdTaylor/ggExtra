@@ -24,7 +24,7 @@ MarginalPlot <- R6::R6Class("MarginalPlot",
       noGeomPlot <- private$margPlotNoGeom(data)
       finalParms <- private$alterParams()
       rawMarg <- private$addLayers(noGeomPlot, finalParms)
-      margThemed <- rawMarg + ggplot2::theme_void()
+      margThemed <- rawMarg + ggdark::dark_theme_void()
       private$addLimits(margThemed)
     }
   ),
